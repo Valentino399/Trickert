@@ -1,0 +1,16 @@
+# Editor de código (VS Code, etc.)
+.vscode/
+.idea/
+
+# Archivos ocultos de Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Archivos ocultos de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Archivos de logs generales
+*.log

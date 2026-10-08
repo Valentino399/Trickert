@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+Allow: /img/
+Allow: /css/
+Allow: /js/
+
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+
+Sitemap: https://trickert.netlify.app/sitemap.xml
+Sitemap: https://trickert.netlify.app/es/sitemap.xml
