@@ -196,3 +196,23 @@ h1.glitch{text-shadow:0 0 40px rgba(0,0,0,.9)}
 
 @media(max-width:860px){.bust{height:48vh;right:-14vw;opacity:.3}.band{height:52vh}}
 iframe#nl-badge-frame { display: none !important; }
+
+/* ===== LV DESIGN CREDITS ===== */
+.lv-credits {
+  display: block;
+  margin-top: 12px;
+  font-size: 0.8rem;
+  letter-spacing: 0.18em;
+  color: #555;
+}
+
+.lv-link {
+  color: var(--muted);
+  font-weight: 600;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.lv-link:hover {
+  color: var(--acid);
+  text-shadow: 0 0 8px rgba(61, 255, 46, 0.4);
+}
